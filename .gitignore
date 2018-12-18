@@ -1,0 +1,4 @@
+*.mid
+*.pdf
+!tunes.pdf
+.vscode
