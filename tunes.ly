@@ -301,5 +301,10 @@
   \pageBreak
 
   \include "The-Kesh.ly"
+  \include "The-Connaughtmans-Rambles.ly"
+  \include "The-Concertina-Reel.ly"
   \pageBreak
+
+  \include "The-Congress-Reel.ly"
+  \include "The-Arkansas-Traveler.ly"
 }
