@@ -23,7 +23,7 @@
       b8 e e d e4 d8 e |
       fis8 e d e fis a a4 |
       b4 b8 fis a4 a8 fis |
-      e8 g fis e d b a fis |
+      e8 g fis e d b a fis | \bar "|."
     }
 
     \new ChordNames {
@@ -44,5 +44,6 @@
     title = "Toss The Feathers (E minor)"
     opus = "Irish reel, trad.; E dorian."
   }
+  \layout{indent=0}
 }
 

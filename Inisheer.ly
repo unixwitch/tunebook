@@ -43,7 +43,7 @@
 
       e4. fis8 e d |
       b4. a8 b d |
-      d,4. b'8 a16 g16 fis8 |
+      g,4. b8 a16 g16 fis8 |
       g2. |
     }
 
@@ -63,7 +63,7 @@
       e2.:m | b2.:m | e2.:m | e2.:m |
       e2.:m | b2.:m | g4. g8 d4:7 | g2. |
       e2.:m | b2.:m | g2. | e2.:m |
-      e2.:m | b2.:m | d2.:7 | g2. |
+      e2.:m | b2.:m | d2.:7 | g2. | \bar "|."
     }
   >>
 
@@ -71,6 +71,7 @@
     title = "Inisheer"
     opus = "Irish air, c. Thomas Walsh; G major."
   }
+  \layout{indent=0}
 }
 
 \markuplist {

@@ -47,7 +47,7 @@
       \repeat volta 2 {
         s4 |
         g1 | g1 | e1:m | a1:m |
-        d1:7 | d1 | d1 | g1 |
+        d1:7 | d1 | d1 | g2~g4
       }
     }
   >>
@@ -56,6 +56,7 @@
     title = "Winster Gallop"
     opus = "English Morris dance, trad.; G major."
   }
+  \layout{indent=0}
 }
 
 \markuplist {

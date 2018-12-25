@@ -63,7 +63,7 @@
       d4. a4.:7 | g4. d4. | e4.:m d4. | b4.:m g4. |
       d4. a4.:7 | g4. d4. | e4.:m b4.:m | d4. d4. |
       d4. a4.:7 | g4. d4. | d4. b4.:m | e4. a4.:7 |
-      d4. b4.:m | e4.:m g4. | d4. g4. | g4. d4. |
+      d4. b4.:m | e4.:m g4. | d4. g4. | g4. d4. | \bar "|."
     }
   >>
 
@@ -71,6 +71,7 @@
     title = "Niel Gow's Lament For The Death Of His Second Wife"
     opus = "Scottish air, c. Niel Gow; D major."
   }
+  \layout{indent=0}
 }
 
 \markuplist {

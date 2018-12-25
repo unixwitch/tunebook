@@ -27,7 +27,7 @@
       cis'8 e cis e4 cis8 e fis a |
       fis8 e cis fis e cis e cis b |
       fis'8 e cis e cis b cis4. |
-      b8 a b cis4 b8 a fis e |
+      b8 a b cis4 b8 a fis e | \bar "|."
     }
   >>
 
@@ -35,5 +35,6 @@
     title = "I Have A House Of My Own With A Chimney Built On Top Of It"
     opus = "Irish slip jig, c. Junior Crehan; D major."
   }
+  \layout{indent=0}
 }
 

@@ -31,7 +31,7 @@
       b8 e e fis e e |
       a8 e e fis e e |
       g8 fis e d4 a8 |
-      b8 a g fis g a |
+      b8 a g fis g a | \bar "||"
       \break
 
       b8 e e fis e e |
@@ -43,7 +43,7 @@
       g4. g8 fis e |
       d8 e fis g4 d8 |
       e8 d cis d4 a8 |
-      b8 a g fis e d |
+      b8 a g fis e d | \bar "|."
     }
 
     \new ChordNames {
@@ -69,6 +69,7 @@
     title = "Morrison's Jig"
     opus = "Irish jig, trad.; E dorian."
   }
+  \layout{indent=0}
 }
 
 \markuplist {

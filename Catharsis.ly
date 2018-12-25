@@ -69,7 +69,7 @@
 
         \alternative {
           { d1:m }
-          { d1:7 }
+          { d1:7 \bar "|." }
         }
       }
     }
@@ -80,7 +80,7 @@
     opus = "Reel, c. Amy Cann; G minor."
   }
 
-  \layout{}
+  \layout{indent=0}
 }
 
 \markuplist {

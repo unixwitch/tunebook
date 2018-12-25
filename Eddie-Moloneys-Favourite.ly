@@ -17,7 +17,7 @@
       b4 g8 b d b g b |
       a4 fis8 a d a fis a |
       b a g fis e fis g a |
-      \tuplet 3/2 { b8 cis d } e d b d e fis |
+      \tuplet 3/2 { b8 cis d } e d b d e fis | \bar "||"
       \break
 
       g4.  fis8 g fis e d |
@@ -28,7 +28,7 @@
       g'4. a8 g fis e d |
       b4 a8 b g b fis b |
       e,4. fis8 g fis g a |
-      \tuplet 3/2 { b8 cis d } e fis g fis e d |
+      \tuplet 3/2 { b8 cis d } e fis g fis e d | \bar "|."
     }
 
     \chords {
@@ -47,6 +47,7 @@
     title = "Eddie Moloney's"
     opus = "Irish reel, c. Paddy Doorhy; E dorian."
   }
+  \layout{indent=0}
 }
 
 \markuplist {

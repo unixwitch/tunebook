@@ -44,7 +44,7 @@
       e4. fis8 e4 |
       d'4. b8 g4 |
       a8 fis4. d4 |
-      e2. |
+      e2. | \bar "|."
     }
 
     \chords {
@@ -71,5 +71,6 @@
     title = "The Arran Boat Song"
     opus = "Scottish slow air, trad.; E dorian."
   }
+  \layout{indent=0}
 }
 

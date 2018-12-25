@@ -23,7 +23,7 @@
       d4 fis8 d cis4 e8 cis |
       d8 e fis g a fis g e |
       a8 fis g e fis d e cis |
-      b8 a b cis d a fis d |
+      b8 a b cis d a fis d | \bar "|."
     }
 
     \chords {
@@ -40,7 +40,7 @@
     title = "Drowsy Maggie"
     opus = "Irish reel, trad.; E dorian / D major"
   }
-  \layout{}
+  \layout{indent=0}
   \midi { \tempo 4 = 200 }
 }
 

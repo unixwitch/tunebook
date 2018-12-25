@@ -38,7 +38,7 @@
       }
       \alternative {
         { e8 cis a cis e fis gis a | }
-        { e8 cis a cis e a gis a | }
+        { e8 cis a cis e a gis a | \bar "|." }
       }
     }
   >>

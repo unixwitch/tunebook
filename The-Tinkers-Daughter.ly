@@ -36,7 +36,7 @@
       }
       \alternative {
         { a fis e fis d4 d8 e }
-        { a fis e fis d a' d b }
+        { a fis e fis d a' d b \bar "|." }
       }
     }
 

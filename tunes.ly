@@ -307,4 +307,30 @@
 
   \include "The-Congress-Reel.ly"
   \include "The-Arkansas-Traveler.ly"
+  \pageBreak
+
+  \include "The-Wise-Maid.ly"
+  \include "Over-the-Waterfall.ly"
+  \include "The-Lilting-Banshee.ly"
+  \pageBreak
+
+  \include "Calliope-House-E.ly"
+  \include "MacArthur-Road-E.ly"
+  \pageBreak
+
+  \include "Calliope-House-D.ly"
+  \include "MacArthur-Road-D.ly"
+  \pageBreak
+
+  \include "Calliope-House-Text.ly"
+  \include "The-Masons-Apron.ly"
+  \pageBreak
+
+  \include "The-Irish-Washerwoman.ly"
+  \include "The-Morning-Dew.ly"
+  \pageBreak
+
+  \include "Rannie-MacLellan.ly"
+  \include "Gweebarra-Bridge.ly"
+  \pageBreak
 }

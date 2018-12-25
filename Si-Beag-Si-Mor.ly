@@ -36,7 +36,7 @@
 
       \alternative {
         { d2. d2 d8 e }
-        { d2. d2. }
+        { d2. d2. \bar "|." }
       }
     }
 
@@ -67,6 +67,7 @@
     title = "Sí Beag Sí Mór"
     opus = "Irish air, c. Turlough O'Carolan; D major."
   }
+  \layout{indent=0}
 }
 
 \markuplist {

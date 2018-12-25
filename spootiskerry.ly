@@ -48,7 +48,7 @@
       g4 d8 e g d e g |
       d e g a b4 a8 b |
       g'4 e8 d e d b a |
-      b4 g g \bar "|"
+      b4 g g \bar "|."
     }
 
     \new ChordNames {
@@ -75,6 +75,7 @@
     title = "Spootiskerry"
     opus = "Shetland reel, c. Ian Burns; G major."
   }
+  \layout{indent=0}
 }
 
 \markuplist {

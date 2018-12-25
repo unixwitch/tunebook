@@ -31,7 +31,7 @@
       }
 
       \repeat volta 2 {
-        g8 fis e d cis b a g fis |
+        g8 fis e d cis b a g a |
         b4 e,8 e4 fis8 g4 b8 |
         a b cis d cis b a b cis |
         d4 d,8 d fis e e4 d8 |
@@ -78,6 +78,8 @@
     title = "The Foxhunter's Jig"
     opus = "Irish slip jig, trad.; D major."
   }
+  \layout{indent=0}
+  \midi{\tempo 4=180}
 }
 
 \markuplist {
