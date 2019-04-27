@@ -42,7 +42,7 @@
 
       g8 e d e |
       g4 g8. a16 |
-      g8 d' a b16 a |
+      b8 d a b16 a |
       g4 g8 \bar "|."
     }
 

@@ -1,6 +1,6 @@
 \version "2.18.2"
 
-\tocItem \markup "Calliopse House (E)"
+\tocItem \markup "Calliope House (E)"
 
 \score {
   <<

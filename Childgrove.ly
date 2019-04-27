@@ -25,7 +25,7 @@
 
       \repeat volta 2 {
         f8 g |
-        g4 f f a |
+        a4 f f a |
         g e e g |
         f d d8 e f d |
         e4 a, a f'8 g |

@@ -231,8 +231,11 @@
   \pageBreak
 
   \include "Sweet-Jenny-Jones.ly"
+  \pageBreak
+
   \include "Bonny-Breast-Knot.ly"
   \include "Bonny-Kate.ly"
+  \include "Tripping-Up-The-Stairs.ly"
   \pageBreak
 
   \include "The-Red-Haired-Boy.ly"
@@ -307,6 +310,7 @@
 
   \include "The-Congress-Reel.ly"
   \include "The-Arkansas-Traveler.ly"
+  \include "Three-Around-Three.ly"
   \pageBreak
 
   \include "The-Wise-Maid.ly"
@@ -324,6 +328,7 @@
 
   \include "Calliope-House-Text.ly"
   \include "The-Masons-Apron.ly"
+  \include "Rolling-in-the-Ryegrass.ly"
   \pageBreak
 
   \include "The-Irish-Washerwoman.ly"
@@ -332,5 +337,36 @@
 
   \include "Rannie-MacLellan.ly"
   \include "Gweebarra-Bridge.ly"
+  \include "The-Star-of-Munster.ly"
   \pageBreak
+
+  \include "Jerusalem-Ridge.ly"
+  \include "The-Sally-Gardens.ly"
+  \pageBreak
+
+  \include "The-Pigeon-on-the-Gate.ly"
+  \include "Westland.ly"
+  \pageBreak
+
+  \include "Bonaparte-Crossing-the-Rhine.ly"
+  \include "Farewell-to-Nigg.ly"
+  \pageBreak
+
+  \include "Lord-Mayo.ly"
+  \include "Donnybrook-Fair.ly"
+  \pageBreak
+
+  \include "The-Bucks-of-Oranmore.ly"
+  \include "The-Blackthorn-Stick.ly"
+  \pageBreak
+
+  \include "Banish-Misfortune.ly"
+  \include "The-Blarney-Pilgrim.ly"
+  \pageBreak
+
+  \include "The-Rolling-Wave.ly"
+  \include "The-Lark-in-the-Morning.ly"
+  \pageBreak
+
+
 }

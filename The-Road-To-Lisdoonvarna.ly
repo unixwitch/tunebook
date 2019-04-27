@@ -19,7 +19,7 @@
         e'4 fis8 g fis e d4 b8 b cis d |
         cis4 a8 a b cis d4 b8 b4. |
         e4 fis8 g fis e d4 b8 b cis d |
-        cis8 d cis b4 a8 b4 e,8 d4. |
+        cis8 d cis b4 a8 b4 e,8 e4. |
       }
     }
 

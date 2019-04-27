@@ -26,7 +26,7 @@
       }
 
       \repeat volta 2 {
-        g4 b b a8 b |
+        b4 g g a8 b |
         c4 a d b |
         e c c e |
         fis4. e8 d4 e8 fis |

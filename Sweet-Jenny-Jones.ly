@@ -114,19 +114,6 @@
   \lyric {My sweet Jenny Jones is the girl I love best.}
   \vspace #1
   \paragraph {
-    John Kirkpatrick (1976) notes that the 3/4 time morris step is
-    different from the normal one used, and that the pause in the
-    stepping coincides with the pause in the musical phrase.
-    “The stepping in the cinquepace (meaning five steps), or galliard,
-    of Elizabethan times is exactly the same rhythm as this,” he says.
-  }
-  \paragraph{
-    The song tune was later converted into a broadside ballad called
-    “The Widow on the Train”, from which it found its way into American
-    old-time repertoire as a waltz. Northumbrian musicians picked up
-    the tune and renamed it after a local heroine, Grace Darling.
-  }
-  \paragraph {
     —Andrew Kuntz, \italic{The Fiddler's Companion.}
   }
 }

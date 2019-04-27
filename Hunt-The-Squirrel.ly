@@ -56,6 +56,8 @@
     title = "Hunt The Squirrel"
     opus = "English country dance, trad.; A major."
   }
+  \layout{indent=0}
+  \midi{\tempo 4=160}
 }
 
 \markuplist {
