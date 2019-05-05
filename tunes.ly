@@ -11,7 +11,7 @@
 
 % Reduce padding between systems where necessary.
 \paper {
-  %system-system-spacing = #'((basic-distance . 2.0) (padding . 0.1))
+  system-system-spacing = #'((basic-distance . 2.0) (padding . 2.5))
 }
 
 #(define ((on-page-greater-than nmbr) layout props arg)
@@ -27,7 +27,7 @@
     % Start page numbering after the TOC.
     print-page-number = ##t
     print-first-page-number = ##t
-    first-page-number = -2
+    first-page-number = -3
     oddHeaderMarkup = \markup \null
     evenHeaderMarkup = \markup \null
     oddFooterMarkup = \markup {
@@ -48,6 +48,7 @@
   }
 
   \markuplist \table-of-contents
+
   \pageBreak
 
   \include "The-Musical-Priest.ly"
@@ -83,7 +84,10 @@
 
   \include "The-Rocky-Road-To-Dublin.ly"
   \include "The-Harvest-Home.ly"
+  \pageBreak
+
   \include "The-Maid-Behind-the-Bar.ly"
+  \include "Tam-Lin.ly"
 
   \pageBreak
 
@@ -101,7 +105,7 @@
   \pageBreak
 
   \include "Cooleys-Reel.ly"
-  \include "Tam-Lin.ly"
+  \pageBreak
 
   \pageBreak
   \include "Si-Beag-Si-Mor.ly"
@@ -199,8 +203,11 @@
   \pageBreak
 
   \include "King-of-the-Faeries.ly"
-  \include "Dear-Tobacco.ly"
+  \include "Rolling-in-the-Ryegrass.ly"
+  \pageBreak
 
+  \include "Dear-Tobacco.ly"
+  \include "Off-To-California.ly"
   \pageBreak
 
   \include "The-Rakes-of-Kildare.ly"
@@ -217,7 +224,6 @@
   \pageBreak
 
   \include "The-Mountain-Road.ly"
-  \include "The-Silver-Spear.ly"
   \pageBreak
 
   \include "Lannigans-Ball.ly"
@@ -296,7 +302,6 @@
 
   \include "John-Ryans-Polka.ly"
   \include "Dennis-Murphys-Polka.ly"
-  \include "Off-To-California.ly"
   \pageBreak
 
   \include "The-Kid-on-the-Mountain.ly"
@@ -328,7 +333,6 @@
 
   \include "Calliope-House-Text.ly"
   \include "The-Masons-Apron.ly"
-  \include "Rolling-in-the-Ryegrass.ly"
   \pageBreak
 
   \include "The-Irish-Washerwoman.ly"
@@ -337,11 +341,17 @@
 
   \include "Rannie-MacLellan.ly"
   \include "Gweebarra-Bridge.ly"
+  \pageBreak
+
+  \include "The-Silver-Spear.ly"
   \include "The-Star-of-Munster.ly"
   \pageBreak
 
   \include "Jerusalem-Ridge.ly"
+  \pageBreak
+
   \include "The-Sally-Gardens.ly"
+  \include "The-Blackthorn-Stick.ly"
   \pageBreak
 
   \include "The-Pigeon-on-the-Gate.ly"
@@ -357,7 +367,6 @@
   \pageBreak
 
   \include "The-Bucks-of-Oranmore.ly"
-  \include "The-Blackthorn-Stick.ly"
   \pageBreak
 
   \include "Banish-Misfortune.ly"
@@ -368,5 +377,12 @@
   \include "The-Lark-in-the-Morning.ly"
   \pageBreak
 
+  \include "The-Treasures-Money-Cant-Buy.ly"
+  \include "The-Shaskeen.ly"
+  \pageBreak
 
+  \include "The-Tarbolton.ly"
+  \include "The-Longford-Collector.ly"
+  \include "The-Sailors-Bonnet.ly"
+  \pageBreak
 }
