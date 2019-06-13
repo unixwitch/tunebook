@@ -19,7 +19,7 @@
         e e' e d e fis g e |
         fis e d fis e d b a |
         g a b g fis g a c |
-        b g a fis g e e
+        b g a fis g[ e e]
         \break
       }
 
@@ -34,7 +34,7 @@
         \tuplet 3/2 { g g g } b g \tuplet 3/2 { fis fis fis } a fis |
         e e' e fis g fis e d |
         b4 d8 b a g fis a |
-        b g a fis g e e
+        b g a fis g[ e e]
       }
     }
   >>

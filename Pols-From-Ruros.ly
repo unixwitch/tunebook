@@ -49,7 +49,7 @@
 
   \header{
     title="Pols From Ruros"
-    opus="Swedish, trad.; D major."
+    opus="Norwegian set dance, trad.; D major."
   }
 
   \layout{indent=0}

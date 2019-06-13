@@ -12,6 +12,7 @@
 % Reduce padding between systems where necessary.
 \paper {
   system-system-spacing = #'((basic-distance . 2.0) (padding . 2.5))
+  page-breaking = #ly:minimal-breaking
 }
 
 #(define ((on-page-greater-than nmbr) layout props arg)

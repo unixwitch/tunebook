@@ -57,7 +57,7 @@
         e d b b d b |
         \break
 
-        e d d fis d d |
+        a d d fis d d |
         e d b d e fis |
         g4 e8 fis4 d8 |
         e d b b d b |
