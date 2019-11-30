@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Pols From Ruros"
 
@@ -9,6 +10,7 @@
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         d8. d16~d8 cis8 a4 |
         fis'8. fis16~fis8 d8 e8. fis16 |
         \tuplet 3/2 { g8 e g } \tuplet 3/2 { fis d fis } e8. cis16 |
@@ -21,6 +23,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         a'8. a16~a8 fis g8. e16 |
         fis8. fis16~fis8 d e8. fis16 |
         \tuplet 3/2 { g8 e g } \tuplet 3/2 { fis d fis } e8. cis16 |

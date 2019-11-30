@@ -10,6 +10,7 @@
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 a4 |
         fis8 d fis g a4 a |
         d8 fis e d d cis b a |
@@ -23,6 +24,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         fis8 g |
         a4 fis8 a g4 e8 g |
         fis4 d8 fis e cis b a |
@@ -35,6 +37,18 @@
         fis4 d d
       }
     }
+
+    \chords {
+      \time 4/4
+
+      \partial 4 s4 |
+      d1 | d2 a2 | g2 d2 | e2.:m a4 |
+      d1 | d2 a2 | d2 a2 | d2.
+
+      s4 |
+      d2 a2 | d2 a2 | c1 | c1 |
+      d2 a2 | d2 a2 | d2 a2 | d2.
+    }
   >>
 
   \header{
@@ -42,7 +56,7 @@
     opus="Scottish hornpipe, trad.; D major."
   }
   \layout{indent=0}
-  \midi{\tempo 4=220}
+  \midi{\tempo 4=180}
 }
 
 \markuplist{

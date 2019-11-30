@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Bonny Breast Knot"
 
@@ -9,6 +10,7 @@
       \key g \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 d8 c |
         b4 g g a8 b |
         c b a g a4 d, |
@@ -22,6 +24,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         b8 c |
         d2 d4. e8 |
         d c b a g4 b4 |

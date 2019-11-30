@@ -10,6 +10,7 @@
       \key g \major
 
       \repeat volta 2 {
+        \mark \default
         b4 b8 b c d |
         e4 e8 e4. |
         d8 d d d4 e8 |
@@ -20,9 +21,11 @@
         d8 e fis g d b |
         a4. g4. |
       }
-      \break
+
+      \break % otherwise the last bar of A ends up on a new line
 
       \repeat volta 2 {
+        \mark \default
         g'4. fis4. |
         e4. d4. |
         g4. fis4. |

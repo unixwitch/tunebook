@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Jerusalem Ridge"
 
@@ -9,6 +10,7 @@
       \key a \minor
 
       \repeat volta 2 {
+        \mark \default
         a8 b c d e4 e8 f |
         e d c e d c e c |
         a b c d e g a g |
@@ -19,9 +21,9 @@
         a b c d e g a g |
         e d c b a2 |
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         e'4 a a a |
         e8 g a b c d c a |
         e4 a a a8 b |
@@ -32,17 +34,17 @@
         e8 g a b c d c a |
         g e d c a2 |
       }
-      \break
 
+      \mark \default
       \repeat volta 2 {
         \tuplet 3/2 { g'8 a g } e2. |
         \tuplet 3/2 { e8 f e } d2. |
         \tuplet 3/2 { d8 e d } c2. |
         \tuplet 3/2 { b8 c b } a2. |
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         e''4 a a4. g8 |
         a4 b c2 |
         e,8 g4 a8 g4. e8 |

@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Mason's Apron"
 
@@ -9,27 +10,26 @@
       \key a \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 e4 |
         a8 a, a4 a8 b a fis |
         e fis a cis d cis b a |
         d b b4 b8 cis b a |
         b cis d e fis e fis gis |
-        \break
 
         a8 a, a4 a8 b a fis |
         e fis a cis d cis b a |
         d cis d e fis e fis a |
         a,4 cis8 b a4
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         e'8 d |
         cis a e' a, fis' a, e' a, |
         cis a e' a, fis' e d cis |
         d b fis' b, a' b, fis' b, |
         d e fis gis a fis e d |
-        \break
 
         cis a e' a, fis' a, e' a, |
         e fis a cis d cis b a |

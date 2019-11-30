@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Britches Full of Stitches"
 
@@ -9,6 +10,7 @@
       \key e \dorian
 
       \repeat volta 2 {
+        \mark \default
         a8. b16 cis8 a |
         b8 a cis a |
         a8. b16 cis8 a |
@@ -20,7 +22,9 @@
         fis8 e e4 |
       }
       \break
+
       \repeat volta 2 {
+        \mark \default
         e'8. fis16 e8 cis |
         b8 a b cis |
         e8. fis16 e8 cis |

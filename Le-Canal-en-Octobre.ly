@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Le Canal en Octobre"
 
@@ -10,22 +11,22 @@
 
       % A
       \repeat volta 2 {
-       \partial 4 g8 a \bar "|"
-       b4 b c8 b a g |
-       b4 b c8 b a g |
-       e8 fis g b a4. g8 |
-       fis8 g e fis d4 g8 a |
+        \mark \default
+        \partial 4 g8 a \bar "|"
+        b4 b c8 b a g |
+        b4 b c8 b a g |
+        e8 fis g b a4. g8 |
+        fis8 g e fis d4 g8 a |
 
-       b4 b c8 b a g |
-       b4 b c8 b a g |
-       e8 fis g b a4. fis8 |
-       g2.
+        b4 b c8 b a g |
+        b4 b c8 b a g |
+        e8 fis g b a4. fis8 |
+        g2.
       }
-
-      \break
 
       % B
       \repeat volta 2 {
+        \mark \default
         b8 c |
         d4 d c8 b a g |
         d'4 d c8 b a g |

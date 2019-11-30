@@ -1,14 +1,16 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Cup of Tea"
 
 \score {
   <<
     \relative b' {
-      \time 4/4
+      \time 2/2
       \key e \dorian
 
       \repeat volta 2 {
+        \mark \default
         b8 a g fis g e e fis |
         g e b' e, g e e a |
         b a g fis g e e g |
@@ -21,6 +23,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         d'4 e8 g fis d e cis |
         d4 e8 g fis b, b4 |
         d4 e8 g fis d e cis |
@@ -33,6 +36,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         fis8 a d a fis a b a |
         fis a d a fis e e4 |
         fis8 a d a fis a b cis |
@@ -46,7 +50,8 @@
     }
 
     \chords {
-      \time 4/4
+      \time 2/2
+
       \repeat volta 2 {
         e1:m | e1:m | e1:m | d1 |
         e1:m | e1:m | g1 | d1 |

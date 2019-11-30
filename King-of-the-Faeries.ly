@@ -11,6 +11,7 @@
 
       \partial 4 b4 |
       \repeat volta 2 {
+        \mark \default
         e8 d e fis g fis g a |
         b4 b g4. a8 |
         b4 e,4 e8 fis g e |
@@ -24,9 +25,10 @@
         { e2. b4 }
         { e2. r8 d'8 }
       }
-      \break
 
       \key e \dorian
+      \bar "||"
+      \mark \default
       e4 e b8 d e fis |
       g8 a g fis e4. fis8 |
       e4 b b8 a b cis |

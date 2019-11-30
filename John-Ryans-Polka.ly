@@ -9,24 +9,22 @@
       \time 2/4
       \key d \major
 
+      \mark \default
       d8 d b16 cis d b |
       a8 fis e d |
       d' d b16 cis d b |
       a8 fis e4 |
-      \break
 
       d'8 d b16 cis d b |
       a8 fis a d16 e |
       fis8 d e cis |
       d4 d8 d16 e | \bar "||"
 
-      \break
-
+      \mark \default
       fis8 d d e16 fis |
       g8 fis e d |
       fis d d e16 fis |
       g8 fis a4 |
-      \break
 
       fis8 d d e16 fis |
       g8 fis e d16 e |

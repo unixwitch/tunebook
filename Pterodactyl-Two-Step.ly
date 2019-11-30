@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Pterodactyl Two Step"
 
@@ -9,6 +10,7 @@
       \key e \minor
 
       \repeat volta 2 {
+        \mark \default
         e8 fis g e4 e'8 |
         d8 c b a4. |
         b8 c b a g fis |
@@ -21,6 +23,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         b'4 e8 b4 e8 |
         d8 c b a4. |
         b8 c b a g fis |
@@ -39,5 +42,5 @@
     opus="English jig, c. Huw Williams; E minor."
   }
   \layout{indent=0}
-  \midi{\tempo 4=120}
+  \midi{\tempo 4.=116}
 }

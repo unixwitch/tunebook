@@ -10,6 +10,7 @@
       \key g \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 d4 |
         g4 b g b |
         g4 b d2 |
@@ -23,6 +24,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         b8 d |
         g4 fis e d |
         g4 fis e d |

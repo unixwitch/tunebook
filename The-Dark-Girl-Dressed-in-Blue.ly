@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Dark Girl Dressed in Blue"
 
@@ -9,6 +10,7 @@
       \key d \mixolydian
 
       \repeat volta 2 {
+        \mark \default
         a4. g8 fis4 g |
         a8 b c a b4 g |
         a4. g8 fis4 g |
@@ -24,6 +26,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         fis4 a g fis8 e |
         d4. b8 a2 |
         fis'4 a g8 fis e4 |

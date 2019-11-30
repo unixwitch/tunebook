@@ -6,9 +6,10 @@
 \score {
   <<
     \relative f' {
-      \time 4/4
+      \time 2/2
       \key d \major
 
+      \mark \default
       fis4 a8 fis b fis a fis |
       fis4 a8 fis e fis d e |
       fis4 a8 fis b fis a fis |
@@ -19,6 +20,7 @@
       fis8 a a4 b8 a fis a |
       b8 a b d e d d a \bar "||" |
 
+      \mark \default
       d4 d8 a b a fis a |
       d4 d8 e fis g fis e |
       d4 d8 a b a fis a |
@@ -31,7 +33,7 @@
     }
 
     \chords {
-      \time 4/4
+      \time 2/2
 
       d1 | d2 a2 | d1 | e1:m |
       d1 | d2 a2 | d1 | a2 d2 |

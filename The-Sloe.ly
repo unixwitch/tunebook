@@ -10,6 +10,7 @@
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 a4 |
         d4. a8 d4 e |
         fis4. e8 d4 cis |
@@ -23,6 +24,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         a4 |
         \tuplet 3/2 { b8 cis b } a4 fis a |
         \tuplet 3/2 { b8 cis b } a4 fis d'8 d |

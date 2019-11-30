@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Road to Lisdoonvarna"
 
@@ -9,6 +10,7 @@
       \key e \dorian
 
       \repeat volta 2 {
+        \mark \default
         e4 b'8 b4 a8 b4 cis8 d4 a8 |
         fis4 a8 a b a d,4 e8 fis e d |
         e4 b'8 b4 a8 b4 cis8 d4. |
@@ -16,6 +18,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         e'4 fis8 g fis e d4 b8 b cis d |
         cis4 a8 a b cis d4 b8 b4. |
         e4 fis8 g fis e d4 b8 b cis d |

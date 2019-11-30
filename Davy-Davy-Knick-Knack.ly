@@ -10,6 +10,7 @@
       \key g \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 8 d8 |
         g16 fis g a b8 b |
         g16 fis g a b8 b |
@@ -23,6 +24,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         b16 c |
         d8. c16 b8 d |
         g8 g d4 |
@@ -35,6 +37,16 @@
         g8 b g
       }
     }
+
+    \chords {
+      \partial 8 s8 |
+      g2 | g2 | d2:7 | d2:7 |
+      g2 | g2 | c4 d4:7 | g4.
+
+      s8 |
+      g2 | e2:m | d2:7 | d2:7 |
+      g2 | e2:m | d2:7 | g4.
+    }
   >>
 
   \header{
@@ -42,7 +54,7 @@
     opus="English Morris dance, trad.; G major."
   }
   \layout{indent=0}
-  \midi{\tempo 4=180}
+  \midi{\tempo 4=90}
 }
 
 \markuplist{

@@ -10,6 +10,7 @@
       \key g \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 8 b16 a |
         g8 e d e |
         g4 g8. a16 |
@@ -22,8 +23,8 @@
         g4 g8
       }
 
+      \mark \default
       r8 |
-      \break
 
       b8 d d4 |
       c8 e e4 |

@@ -10,6 +10,7 @@
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         a4 b8 cis d4 a |
         g4 fis e fis8 e |
         d4 fis8 g a4 d |
@@ -23,9 +24,9 @@
         { e2 d2 | }
         { e2 d4. e8 | }
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         fis4 a fis a |
         fis a d8 cis b a |
         g4 b g b |

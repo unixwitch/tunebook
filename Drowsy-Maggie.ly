@@ -1,20 +1,23 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Drowsy Maggie"
 
 \score {
   <<
     \relative e' {
-      \time 4/4
+      \time 2/2
       \key e \dorian
 
       \repeat volta 2 {
+        \mark \default
         e4 b'8 e, d' e, b' e, |
         e4 b'8 e, a fis d fis |
         e4 b'8 e, d' e, b' e, |
         b'8 a b cis d a fis d |
       }
 
+      \mark \default
       d'4 fis8 d cis4 e8 cis |
       d8 e fis g a fis g e |
       d4 fis8 d cis4 e8 cis |

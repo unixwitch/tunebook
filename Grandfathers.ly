@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Grandfather's (The Sheep Shearing)"
 
@@ -9,6 +10,7 @@
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 a8 g |
         fis4 a b cis |
         d8 cis d e fis4 a4 |
@@ -20,9 +22,9 @@
         g4 fis e b8 cis |
         d4 fis d
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         cis8 d |
         e4 a, e' a, |
         g'4 fis e4. a,8 |

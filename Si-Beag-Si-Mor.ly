@@ -12,6 +12,7 @@
       \partial 4 d8 e |
 
       \repeat volta 2 {
+        \mark \default
         fis4. e8 d4 d d8 e d4 |
         b2 a4 fis2 a4 |
         b8 a b cis d4 e2 d8 e |
@@ -24,6 +25,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         fis4 fis8 e d4 e8 d e fis a4 |
         b2 a4 fis2 e8 d |
         e2 a4 fis2 e4 |

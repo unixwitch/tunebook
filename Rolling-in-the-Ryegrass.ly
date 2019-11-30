@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Rolling in the Ryegrass"
 
@@ -9,14 +10,15 @@
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         a4 a8 b a fis d fis |
         g4 b8 g d' g, b g |
         a b a fis d fis a fis |
         g b a g e4 d |
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         a'8 b d e fis4 fis8 d |
         g4 g8 e fis e d b |
         a b d e fis e fis a |

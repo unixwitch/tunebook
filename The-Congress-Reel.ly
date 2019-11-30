@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Congress Reel"
 
@@ -9,6 +10,7 @@
       \key a \dorian
 
       \repeat volta 2 {
+        \mark \default
         e8 a, a g a4 b8 d |
         e a a fis g e d g |
         e a, c a e' a, c a |
@@ -21,6 +23,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         e a a g a b a g |
         e a a g e g d g |
         e g d g e g d g |
@@ -34,8 +37,7 @@
     }
 
     \chords {
-      \time 4/4
-      \set chordChanges=##t
+      \time 2/2
 
       \repeat volta 2 {
         a1:m | a2:m g | a1:m | g1 |

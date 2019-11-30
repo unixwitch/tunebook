@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Nut Tree"
 
@@ -9,6 +10,7 @@
       \key e \minor
 
       \repeat volta 2 {
+        \mark \default
         e8 fis g a b4 c8 b |
         a4 b8 a g4 e |
         e8 fis g a b4 c8 b |
@@ -19,9 +21,9 @@
         c'8 b a g fis4 a8 b |
         g4 e e2 |
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         e'4 e8 e e4 d8 e |
         fis4 e d b |
         b8 d d4 d e8 d |

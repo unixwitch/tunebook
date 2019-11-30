@@ -6,9 +6,10 @@
 \score {
   <<
     \relative b' {
-      \time 4/4
+      \time 2/2
       \key e \dorian
 
+      \mark \default
       b4 g8 b e, b' g b |
       a4 fis8 a d, a' fis a |
       b4 g8 b e, b' g a |
@@ -18,8 +19,8 @@
       a4 fis8 a d a fis a |
       b a g fis e fis g a |
       \tuplet 3/2 { b8 cis d } e d b d e fis | \bar "||"
-      \break
 
+      \mark \default
       g4.  fis8 g fis e d |
       b4. a8 \tuplet 3/2 { b cis d } e fis |
       g4 e8 fis g e fis d |
@@ -32,8 +33,7 @@
     }
 
     \chords {
-      \time 4/4
-      \set chordChanges = ##t
+      \time 2/2
 
       e1:m | d1 | e1:m | e2:m d2 |
       e1:m | d1 | g2 e2:m | e2:m d2 |

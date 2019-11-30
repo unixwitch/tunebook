@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Brighton Camp"
 
@@ -9,6 +10,7 @@
       \key g \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 8 g16 fis |
         e8 d b a |
         b g e8. d16 |
@@ -22,6 +24,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         d'16 c |
         b8 d e fis |
         g d b8. a16 |

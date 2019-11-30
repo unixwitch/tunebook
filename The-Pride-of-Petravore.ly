@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Pride of Petravore (Eileen Óg)"
 
@@ -10,6 +11,7 @@
 
       % A
       \repeat volta 2 {
+        \mark \default
         e'4. fis8 g4. a8 |
         b8 c b a g4 e4 |
         d4. e8 fis4. g8 |
@@ -20,9 +22,10 @@
         b4 b8 c b a g fis |
         e4 d e2 |
       }
-      \break
+
       % B
       \repeat volta 2 {
+        \mark \default
         e'4 e e e |
         d8 b g a b4 b8 c |
         b8 a fis g a4 a8 b |
@@ -35,8 +38,7 @@
       }
     }
 
-    \new ChordNames {
-      \chordmode {
+    \chords {
         \time 4/4
 
         \repeat volta 2 {
@@ -46,7 +48,6 @@
         \repeat volta 2 {
           c1 | g2 e:m | e2:m d | d2 e:m |
           c1 | g1 | g2 b:m | e1:m |
-        }
       }
     }
   >>
@@ -55,6 +56,7 @@
     title = "The Pride of Petravore (Eileen Óg)"
     opus = "Irish hornpipe, c. Houston Collisson; E minor."
   }
+  \layout{indent=0}
 }
 
 \markuplist {

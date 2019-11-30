@@ -7,11 +7,12 @@
 \score {
   <<
     \relative d' {
-      \time 4/4
+      \time 2/2
       \key g \major
 
       % A
       \repeat volta 2 {
+        \mark \default
         \partial 4 d8 e |
         g4 d8 e g d e g |
         d8 e g a b4 a8 b |
@@ -26,25 +27,23 @@
 
 
       % B
+      \mark \default
       e'8 fis |
       g4 e8 d e d b4 |
       b8 a b g e4 d8 e |
       g8 a b d e g e d |
       b4 a a e'8 fis |
 
-      \break
       g4 e8 d e d b4 |
       b8 a b g e4 d8 e |
       g8 a b d e g e d |
       b4 g g e'8 fis |
 
-      \break
       g4 e8 d e d b4 |
       b8 a b g e4 d8 e |
       g8 a b d e g e d |
       b4 a a d,8 e |
 
-      \break
       g4 d8 e g d e g |
       d e g a b4 a8 b |
       g'4 e8 d e d b a |
@@ -53,7 +52,7 @@
 
     \new ChordNames {
       \chordmode {
-        \time 4/4
+        \time 2/2
 
         % A
         \repeat volta 2 {

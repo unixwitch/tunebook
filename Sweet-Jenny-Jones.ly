@@ -11,6 +11,7 @@
 
       \partial 4 a4 |
       \repeat volta 2 {
+        \mark \default
         d a fis |
         d4. e8 fis4 |
         g b e |
@@ -21,8 +22,8 @@
         a d cis |
         d2
       }
-      \break
 
+      \mark \default
       d8 e |
       fis4 d fis |
       e cis a |
@@ -33,7 +34,6 @@
       e cis a |
       d cis b |
       a2 b8 cis |
-      \break
 
       d4 a fis |
       d4. e8 fis4 |

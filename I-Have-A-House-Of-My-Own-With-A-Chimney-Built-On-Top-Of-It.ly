@@ -1,5 +1,4 @@
 \version "2.18.2"
-
 \include "util.ly"
 
 \tocItem \markup "I Have A House Of My Own With A Chimney Built On Top Of It"
@@ -12,6 +11,7 @@
 
       % A
       \repeat volta 2 {
+        \mark \default
         b8 a fis fis e fis fis4.\prall |
         b8 a fis fis e fis a4\prall cis8 |
         b8 a fis fis e fis fis4\prall a8 |
@@ -19,6 +19,7 @@
       }
 
       % B
+      \mark \default
       cis'8 e cis e4 cis8 e4 e8 |
       fis8 e cis fis e cis e cis b |
       cis8 e cis e4 cis8 e4 cis8 |

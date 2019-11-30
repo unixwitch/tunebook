@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Dennis Murphy's Polka"
 
@@ -9,6 +10,7 @@
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         fis16 g fis e d8. b16 |
         a8 d, fis a |
         g e e'8. d16 |
@@ -19,9 +21,9 @@
         g e e'8. fis16 |
         e8 d d4 |
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         a8 fis' fis16 e fis8 |
         b,8 g' g16 fis g8 |
         a,8 fis' fis16 e d8 |

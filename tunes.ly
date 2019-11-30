@@ -4,6 +4,7 @@
 % Prevent the first line in a score from being indented.
 \layout {
   indent = 0.0\cm
+  \set Score.markFormatter = #format-mark-box-alphabet
   \context { \ChordNames
              \override ChordNames #'font-size = #1
   }
@@ -54,23 +55,22 @@
 
   \include "The-Musical-Priest.ly"
   \include "The-Tinkers-Daughter.ly"
-  \include "I-Have-A-House-Of-My-Own-With-A-Chimney-Built-On-Top-Of-It.ly"
-
+  \include "The-Road-To-Lisdoonvarna.ly"
   \pageBreak
 
   \include "The-Rights-of-Man.ly"
   \pageBreak
 
   \include "The-Pride-of-Petravore.ly"
-  \pageBreak
-
-  \include "spootiskerry.ly"
   \include "Comb-Your-Hair-And-Curl-It.ly"
   \pageBreak
 
-  \include "Willafjord.ly"
-  \include "The-Road-To-Lisdoonvarna.ly"
+  \include "spootiskerry.ly"
+  \include "I-Have-A-House-Of-My-Own-With-A-Chimney-Built-On-Top-Of-It.ly"
+  \pageBreak
 
+  \include "Willafjord.ly"
+  \include "The-Night-Before-Larry-Was-Stretched.ly"
   \pageBreak
 
   \include "Catharsis.ly"
@@ -85,10 +85,13 @@
 
   \include "The-Rocky-Road-To-Dublin.ly"
   \include "The-Harvest-Home.ly"
+  \include "Toss-The-Feathers-E-minor.ly"
+
   \pageBreak
 
   \include "The-Maid-Behind-the-Bar.ly"
   \include "Tam-Lin.ly"
+  \include "The-Arran-Boat-Song.ly"
 
   \pageBreak
 
@@ -101,11 +104,12 @@
   \pageBreak
 
   \include "Morrisons-Jig.ly"
-  \include "Toss-The-Feathers-E-minor.ly"
+  \include "The-First-of-May.ly"
 
   \pageBreak
 
   \include "Cooleys-Reel.ly"
+  \include "The-Sheriffs-Ride.ly"
   \pageBreak
 
   \pageBreak
@@ -114,25 +118,17 @@
   \pageBreak
 
   \include "The-Butterfly.ly"
-  \include "The-Night-Before-Larry-Was-Stretched.ly"
-  \include "The-Arran-Boat-Song.ly"
+  \include "Laride-6.ly"
 
   \pageBreak
 
   \include "Jacky-Tar.ly"
   \include "Durham-Rangers.ly"
-  \include "The-Sheriffs-Ride.ly"
-
+  \include "Chilled-Out-Reel.ly"
   \pageBreak
 
   \include "The-Sloe.ly"
   \include "Le-Canal-en-Octobre.ly"
-
-  \pageBreak
-
-  \include "Laride-6.ly"
-  \include "Bear-Dance.ly"
-  \include "Spirit-Of-The-Dance.ly"
 
   \pageBreak
 
@@ -151,10 +147,15 @@
   \pageBreak
 
   \include "Inisheer.ly"
-  \include "Molly-MacAlpin.ly"
+  \include "Tom-Dohertys.ly"
   \pageBreak
 
+  \include "Molly-MacAlpin.ly"
   \include "Drowsy-Maggie.ly"
+  \pageBreak
+
+  \pageBreak
+
   \include "The-Full-Rigged-Ship.ly"
   \include "The-New-Rigged-Ship.ly"
 
@@ -171,16 +172,16 @@
 
   \include "Winster-Gallop.ly"
   \include "Salmon-Tails.ly"
-  \include "Tom-Dohertys.ly"
+  \include "Captain-Lanoes-Quick-March.ly"
+  \pageBreak
+
   \pageBreak
 
   \include "Rogues-March.ly"
   \pageBreak
 
-  \include "Captain-Lanoes-Quick-March.ly"
   \include "The-Princess-Royal.ly"
-  \include "Bouree.ly"
-
+  \include "Three-Around-Three.ly"
   \pageBreak
 
   \include "Trunkles-I.ly"
@@ -208,23 +209,25 @@
   \pageBreak
 
   \include "Dear-Tobacco.ly"
+  \include "Bear-Dance.ly"
   \include "Off-To-California.ly"
   \pageBreak
 
   \include "The-Rakes-of-Kildare.ly"
   \include "Floating-From-Skerry.ly"
-  \pageBreak
-
   \include "My-Darling-Asleep.ly"
-  \include "Chilled-Out-Reel.ly"
   \pageBreak
 
-  \include "The-Nut-Tree.ly"
   \include "The-Half-Century.ly"
+  \include "The-Monaghan-Jig.ly"
+  \pageBreak
+
   \include "The-Paynes-Mill-Quick-Step.ly"
+  \include "The-Red-Haired-Boy.ly"
   \pageBreak
 
   \include "The-Mountain-Road.ly"
+  \include "The-Nut-Tree.ly"
   \pageBreak
 
   \include "Lannigans-Ball.ly"
@@ -233,7 +236,7 @@
   \pageBreak
 
   \include "La-Ciapa-Rusa.ly"
-  \include "The-Merry-Blacksmith.ly"
+  \include "The-Arkansas-Traveler.ly"
   \include "The-Rakes-of-Mallow.ly"
   \pageBreak
 
@@ -245,20 +248,16 @@
   \include "Tripping-Up-The-Stairs.ly"
   \pageBreak
 
-  \include "The-Red-Haired-Boy.ly"
-  \include "The-First-of-May.ly"
-  \pageBreak
-
   \include "Staten-Island.ly"
   \pageBreak
 
-  \include "The-Dark-Girl-Dressed-in-Blue.ly"
   \include "Mazurka-de-Lapleau.ly"
   \include "Skeltons-Mazurka.ly"
+  \include "The-Merry-Blacksmith.ly"
   \pageBreak
 
   \include "Chokela-och-Bullar.ly"
-  \include "Molly-Oxford.ly"
+  \include "Rannie-MacLellan.ly"
   \include "St-Martins.ly"
   \pageBreak
 
@@ -303,6 +302,7 @@
 
   \include "John-Ryans-Polka.ly"
   \include "Dennis-Murphys-Polka.ly"
+  \include "The-Congress-Reel.ly"
   \pageBreak
 
   \include "The-Kid-on-the-Mountain.ly"
@@ -312,11 +312,6 @@
   \include "The-Kesh.ly"
   \include "The-Connaughtmans-Rambles.ly"
   \include "The-Concertina-Reel.ly"
-  \pageBreak
-
-  \include "The-Congress-Reel.ly"
-  \include "The-Arkansas-Traveler.ly"
-  \include "Three-Around-Three.ly"
   \pageBreak
 
   \include "The-Wise-Maid.ly"
@@ -336,12 +331,14 @@
   \include "The-Masons-Apron.ly"
   \pageBreak
 
+  \include "Bouree.ly"
   \include "The-Irish-Washerwoman.ly"
   \include "The-Morning-Dew.ly"
   \pageBreak
 
-  \include "Rannie-MacLellan.ly"
+  \include "Molly-Oxford.ly"
   \include "Gweebarra-Bridge.ly"
+  \include "The-Rolling-Wave.ly"
   \pageBreak
 
   \include "The-Silver-Spear.ly"
@@ -349,41 +346,49 @@
   \pageBreak
 
   \include "Jerusalem-Ridge.ly"
+  \include "Bonaparte-Crossing-the-Rhine.ly"
+  \pageBreak
+
+  \include "Westland.ly"
+  \include "Lord-Mayo.ly"
+  \pageBreak
+
+  \include "Farewell-to-Nigg.ly"
+  \include "The-Pigeon-on-the-Gate.ly"
   \pageBreak
 
   \include "The-Sally-Gardens.ly"
-  \include "The-Blackthorn-Stick.ly"
+  \include "Banish-Misfortune.ly"
   \pageBreak
 
-  \include "The-Pigeon-on-the-Gate.ly"
-  \include "Westland.ly"
-  \pageBreak
-
-  \include "Bonaparte-Crossing-the-Rhine.ly"
-  \include "Farewell-to-Nigg.ly"
-  \pageBreak
-
-  \include "Lord-Mayo.ly"
   \include "Donnybrook-Fair.ly"
+  \include "The-Blackthorn-Stick.ly"
+  \include "The-Dark-Girl-Dressed-in-Blue.ly"
   \pageBreak
 
   \include "The-Bucks-of-Oranmore.ly"
+  \include "Spirit-Of-The-Dance.ly"
   \pageBreak
 
-  \include "Banish-Misfortune.ly"
-  \include "The-Blarney-Pilgrim.ly"
-  \pageBreak
-
-  \include "The-Rolling-Wave.ly"
   \include "The-Lark-in-the-Morning.ly"
-  \pageBreak
-
-  \include "The-Treasures-Money-Cant-Buy.ly"
   \include "The-Shaskeen.ly"
   \pageBreak
 
   \include "The-Tarbolton.ly"
   \include "The-Longford-Collector.ly"
-  \include "The-Sailors-Bonnet.ly"
   \pageBreak
+
+  \include "The-Sailors-Bonnet.ly"
+  \include "The-Blarney-Pilgrim.ly"
+  \include "The-Treasures-Money-Cant-Buy.ly"
+  \pageBreak
+
+  \include "The-Wind-That-Shakes-The-Barley.ly"
+  \include "Alices-Reel.ly"
+  \include "The-Trip-to-Ireland.ly"
+  \pageBreak
+
+  \pageBreak
+  \include "Bill-Cheatham.ly"
+  \include "Haste-to-the-Wedding.ly"
 }

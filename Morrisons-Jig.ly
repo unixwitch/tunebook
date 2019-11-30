@@ -10,35 +10,33 @@
       \key e \dorian
 
       \repeat volta 2 {
+        \mark \default
         e4. b'4. |
         e,4 b'8 a fis d |
         e8 d e b'4. |
         d8 cis b a fis e |
-        \break
+
         e4. b'4. |
         e,4 b'8 a fis d |
         g4 g8 fis g a |
         d8 a g fis e d |
-        \break
       }
 
+      \mark \default
       b'8 e e fis e e |
       a8 e e fis e e |
       b8 e e fis e e |
       a4 g8 fis e d |
-      \break
 
       b8 e e fis e e |
       a8 e e fis e e |
       g8 fis e d4 a8 |
       b8 a g fis g a | \bar "||"
-      \break
 
       b8 e e fis e e |
       a8 e e fis e e |
       b8 e e fis e e |
       fis8 a fis d e fis |
-      \break
 
       g4. g8 fis e |
       d8 e fis g4 d8 |
@@ -69,7 +67,6 @@
     title = "Morrison's Jig"
     opus = "Irish jig, trad.; E dorian."
   }
-  \layout{indent=0}
 }
 
 \markuplist {

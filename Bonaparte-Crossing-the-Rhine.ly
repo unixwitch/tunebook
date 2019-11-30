@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Bonaparte Crossing the Rhine"
 
@@ -9,6 +10,7 @@
       \key a \dorian
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 e8 g |
         a4 a8 b a g e4 |
         c'8 d e c d4 e8 g |
@@ -22,6 +24,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         e'8 g |
         a g e d c d e g |
         a g e c d4 e8 g |

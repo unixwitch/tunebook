@@ -9,6 +9,7 @@
       \time 2/2
       \key g \major
 
+      \mark \default
       b4 d8 d8 g4 d4 |
       b4 d8 d8 g4 d4 |
       c4 c8 b a4 g |
@@ -18,8 +19,8 @@
       b4 d8 d g4 d4 |
       c4 c8 b a4 e'4 |
       d8 b d b a4 g4 | \bar "||"
-      \break
 
+      \mark \default
       e8 b' e, b' e, b' b4 |
       a4 b e,8 b' b4 |
       a4 g e8 b' b4 |

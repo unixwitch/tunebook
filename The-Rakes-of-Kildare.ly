@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Rakes of Kildare"
 
@@ -9,6 +10,7 @@
       \key a \dorian
 
       \repeat volta 2 {
+        \mark \default
         e8 a a a g a |
         b c d e4 fis8 |
         g4 g8 e fis g |
@@ -18,25 +20,22 @@
         g fis e d b g |
         a b a a4. |
       }
-      \break
 
+      \mark \default
       a'8 e a a e a |
       a e a b4 a8 |
       g4 g8 e fis g |
       d b a g4. |
-      \break
 
       a'8 e a a e a |
       a e a b4 a8 |
       g fis e d b g |
       a b a a4. | \bar "||"
-      \break
 
       a'8 e a a e a |
       a e a b4 a8 |
       g4 g8 e fis g |
       d b a g4. |
-      \break
 
       e8 a a a g a |
       b c d e4 fis8 |

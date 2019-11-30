@@ -1,14 +1,16 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "MacArthur Road (D)"
 
 \score {
   <<
     \relative d'' {
-      \time 4/4
+      \time 2/2
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         a8 fis \tuplet 3/2 { fis fis fis } a b d e |
         fis4. d8 e d b d |
         e4 fis8 d e d b d |
@@ -20,11 +22,11 @@
         a b d e d4 d |
       }
 
+      \mark \default
       a'8 d, \tuplet 3/2 { d d d } a' d, b' d, |
       a'8 d, \tuplet 3/2 { d d d } e d b d |
       e4 fis8 d e d b d |
       g d fis d e d b d |
-      \break
 
       a' d, \tuplet 3/2 { d d d } a' d, b' d, |
       a' d, \tuplet 3/2 { d d d } e d b d |

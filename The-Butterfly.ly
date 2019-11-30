@@ -10,6 +10,7 @@
       \key e \minor
 
       \repeat volta 2 {
+        \mark \default
         b4 e,8 g4 e8 fis4. |
         b4 e,8 g4 e8 fis8 e d |
         b'4 e,8 g4 e8 fis4. |
@@ -19,6 +20,7 @@
       \break
 
       \repeat volta 2 {
+        \mark \default
         b'4 d8 e4 fis8 g4. |
         b,4 d8 g4 e8 d b a |
         b4 d8 e4 fis8 g4 a8 |
@@ -28,6 +30,7 @@
       \break
 
       \repeat volta 2 {
+        \mark \default
         b4. b4 a8 g4 a8 |
         b4. b8 a b d b a |
         b4. b4 a8 g4 a8 |
@@ -73,7 +76,7 @@
 \markuplist {
   \paragraph {
     Composition of the “The Butterfly” is credited to the late fiddler Tommy Potts,
-    who knew the first two parts of the tune from his father, Sean, an Uilleann piper
+    who knew the first two parts of the tune from his father, Sean, an Uilleann piper.
     Caoimhin Mac Aoidh gives that Potts was working in his garden one day when he noticed
     the erratic flight of a butterfly flitting about. Intrigued, Potts tried to mimick
     the rhythm of the insect while he continued to work in the garden, and was inspired

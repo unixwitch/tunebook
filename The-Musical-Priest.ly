@@ -6,11 +6,12 @@
 \score {
   <<
     \relative b' {
-      \time 4/4
+      \time 2/2
       \key b \minor
 
       % A
       \repeat volta 2 {
+          \mark \default
           \partial 4 b8 a \bar "|"
           fis b b a b4 b8 d |
           cis b a fis' e cis b a |
@@ -19,8 +20,8 @@
       }
 
       % B
-      \break
       \repeat volta 2 {
+          \mark \default
           b8 cis \bar "|"
           d4 d8 cis d fis e d |
           \tuplet 3/2 { cis b a } e' a, fis' a, e' a, |
@@ -29,8 +30,8 @@
       }
 
       % C
-      \break
       \repeat volta 2 {
+        \mark \default
         b8 cis |
         d b b4 b'8 a fis b |
         a fis e cis a b cis e |
@@ -41,7 +42,7 @@
 
     \new ChordNames {
       \chordmode {
-        \time 4/4
+        \time 2/2
         % A
         \repeat volta 2 {
           \partial 4 s4 \bar "|"

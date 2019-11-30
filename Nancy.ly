@@ -10,6 +10,7 @@
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 \tuplet 3/2 { a8 b cis } |
         d4 d, fis a |
         d4 fis8 e d4 a4 |
@@ -21,9 +22,9 @@
         b4 g' fis8 e d cis |
         d2 d4
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         fis8 g |
         a4. b8 a4 g8 fis |
         g4. a8 g4 fis8 e |
@@ -35,9 +36,9 @@
         b4 g' fis8 e d cis |
         d2 d4
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         \tuplet 3/2 { a8 b cis } |
         d8 cis b a g fis e d |
         fis4 a d a |
@@ -49,9 +50,9 @@
         b g' fis8 e d cis |
         d2 d4
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         fis8 g |
         a8 a, a' a, a'4 g8 fis |
         g8 a, g' a, g'4 fis8 e |
@@ -102,6 +103,7 @@
     title = "Nancy"
     opus = "Northumbrian rant, c. Tom Clough; D major."
   }
+  \layout{indent=0}
 }
 
 \markuplist {

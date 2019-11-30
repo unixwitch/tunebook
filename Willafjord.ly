@@ -6,10 +6,11 @@
 \score {
   <<
     \relative b' {
-      \time 4/4
+      \time 2/2
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 b4 |
         a4 fis8 a4 d,8 fis a |
         b4 g8 b4 d,8 g b |
@@ -22,9 +23,8 @@
         fis4 d d
       }
 
-      \break
-
       \repeat volta 2 {
+        \mark \default
         d8 e |
         fis4 d8 fis4 fis8 d fis |
         g8 e a fis g fis e d |
@@ -40,8 +40,7 @@
 
     \new ChordNames {
       \chordmode {
-        \time 4/4
-        \set chordChanges = ##t
+        \time 2/2
 
         \repeat volta 2 {
           \partial 4 s4

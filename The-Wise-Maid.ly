@@ -1,14 +1,16 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Wise Maid"
 
 \score {
   <<
     \relative d' {
-      \time 4/4
+      \time 2/2
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 d8 e |
         fis4 fis8 g fis e d e |
         fis a a b a fis e d |
@@ -20,9 +22,9 @@
         d'4 e8 g fis d e cis |
         d b a g fis[ d]
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         fis8 a |
         d4 a8 g fis d fis a |
         d fis a fis g fis e g |
@@ -37,8 +39,7 @@
     }
 
     \chords {
-      \time 4/4
-      \set chordChanges=##t
+      \time 2/2
 
       \repeat volta 2 {
         \partial 4 s4

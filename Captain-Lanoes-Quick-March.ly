@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Captain Lanoe's Quick March"
 
@@ -9,6 +10,7 @@
       \key g \major
 
       \repeat volta 2 {
+        \mark \default
         g4 b8 d4 g8 |
         g8 fis e d4. |
         c8 d c b4 b8 |
@@ -19,9 +21,11 @@
         c8 d c b4 b8 |
         a8 g a g4. |
       }
+
       \break
 
       \repeat volta 2 {
+        \mark \default
         b4. b4. |
         b8 a b c4. |
         b4 c8 d4 c8 |

@@ -10,6 +10,7 @@
       \key a \mixolydian
 
       \repeat volta 2 {
+        \mark \default
         e8 a a g a b cis d |
         e fis e cis d4 cis8 d |
         e a, a a a b cis a |
@@ -22,6 +23,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         g'4 g8 a g fis e fis |
         g fis e cis d4 cis8 d |
         e a, a a a b cis a |

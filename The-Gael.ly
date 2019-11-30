@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Gael"
 
@@ -8,6 +9,7 @@
       \time 6/8
       \key a \dorian
 
+      \mark \default
       e4 e8 c' b a |
       b a g a g d |
       e4 e8 c' b a |
@@ -18,6 +20,7 @@
       g4 g8 b4 b8 |
       d b b b a b | \bar "||"
 
+      \mark \default
       c4 c8 c b c |
       d c c c b a |
       b4 b8 b a b |

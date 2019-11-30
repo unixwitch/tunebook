@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Nail That Catfish to a Tree"
 
@@ -9,6 +10,7 @@
       \key g \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 r4 |
         d4 b' a b |
         c8 b a4 b2 |
@@ -20,8 +22,8 @@
         a8 b a g fis d e fis |
         g2.
       }
-      \break
 
+      \mark \default
       d4 |
       c2 e |
       c'2. b4 |
@@ -32,7 +34,6 @@
       c'2. b4 |
       a8 b a g fis d e fis |
       g2. d4 \bar "||" |
-      \break
 
       c2 e |
       c'2. b4 |

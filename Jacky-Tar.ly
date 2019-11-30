@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Jacky Tar"
 
@@ -9,6 +10,7 @@
       \key e \minor
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 b8 d |
         e4 e8 d e fis g e |
         d4 b b d8 b |
@@ -21,9 +23,8 @@
         g4 e e
       }
 
-      \break
-
       \repeat volta 2 {
+        \mark \default
         g8 a |
         b8 g e g b g e g |
         b8 a g fis e4 fis8 g |

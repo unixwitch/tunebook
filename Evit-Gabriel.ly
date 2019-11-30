@@ -1,19 +1,20 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Evit Gabriel"
 
 \score {
   <<
     \relative d' {
-      \time 4/4
+      \time 2/2
       \key e \minor
 
       \repeat volta 2 {
+        \mark \default
         e8 fis g fis e fis g fis |
         e fis g a b4 b8 b |
         c8 b a g fis4 g8 a |
         b a g b fis4 g8 fis |
-        \break
 
         e8 fis g fis e fis g fis |
         e fis g a b4 b8 b |
@@ -23,14 +24,13 @@
         { b a g fis e4. e8 }
         { b' a g fis e4 c'8 d }
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         e8 a, a e' d c b c |
         d g, g d' c b a g |
         fis g a c b a g fis |
         e fis g a b4 c8 d |
-        \break
 
         e8 a, a e' d c b c |
         d g, g d' c b a g |
@@ -43,7 +43,8 @@
     }
 
     \chords {
-      \time 4/4
+      \time 2/2
+
       \repeat volta 2 {
         e1:m | e1:m | a1:m | b1:7 |
         e1:m | e1:m | a1:m

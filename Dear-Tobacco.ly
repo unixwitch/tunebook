@@ -10,6 +10,7 @@
       \key e \dorian
 
       \repeat volta 2 {
+        \mark \default
         b4 e, e fis |
         g8 fis e d fis2 |
         b4 e, e cis' |
@@ -20,9 +21,9 @@
         d4. e8 d4 cis' |
         d4. cis8 b4 a |
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         b4 e e fis |
         g8 fis e d e2 |
         b4 e e fis |

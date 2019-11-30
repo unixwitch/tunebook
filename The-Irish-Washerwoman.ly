@@ -10,6 +10,7 @@
       \key g \major
 
       \repeat volta 2 {
+        \mark \default
         b8 g g d g g |
         b g b d c b |
         c a a e a a |
@@ -22,6 +23,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         b8 g g d g g |
         b g b b a g |
         a fis fis d fis fis |

@@ -10,6 +10,7 @@
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 fis8 a |
         b8 a fis a d,4 fis8 a8 |
         b8 a \tuplet 3/2 { b cis d } e4 d8 e |
@@ -22,9 +23,8 @@
         d4 fis d
       }
 
-      \break
-
       \repeat volta 2 {
+        \mark \default
         fis8 g |
         a8 fis d fis a4 g8 fis |
         e8 fis g a b4 a8 g |
@@ -61,6 +61,7 @@
     title = "The Boys of Bluehill"
     opus = "Irish hornpipe, trad.; D major."
   }
+  \layout{indent=0}
 }
 
 \markuplist {

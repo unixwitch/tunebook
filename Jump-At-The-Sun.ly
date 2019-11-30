@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Jump At The Sun"
 
@@ -9,6 +10,7 @@
       \key e \minor
 
       \repeat volta 2 {
+        \mark \default
         e8 g b ais4 b8 |
         e,8 g b ais4 b8 |
         e8 b b e b b |
@@ -21,6 +23,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         e'8 b b g' fis e |
         fis8 b, b a' g fis |
         g8 fis e g fis e |

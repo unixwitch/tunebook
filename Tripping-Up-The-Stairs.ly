@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Tripping Up The Stairs"
 
@@ -9,6 +10,7 @@
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         fis8 a a g b b |
         fis a d fis e d |
         cis b cis a b cis |
@@ -19,9 +21,9 @@
         cis4 cis8 a b cis |
         d fis e d4 a8 |
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         d b b fis' b, b |
         d b b fis' e d |
         cis a a e' a, a |

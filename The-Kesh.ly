@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Kesh"
 
@@ -9,6 +10,7 @@
       \key g \major
 
       \repeat volta 2 {
+        \mark \default
         g4. g8 a b |
         a4. a8 b d |
         e d d g d d |
@@ -21,6 +23,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         b4 b8 d4 d8 |
         e g e d b a |
         b4 b8 d b g |

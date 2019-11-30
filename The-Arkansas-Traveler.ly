@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Arkansas Traveler"
 
@@ -9,6 +10,7 @@
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         d8 fis e d b4 b |
         a a d2 |
         e4 e fis fis |
@@ -22,10 +24,9 @@
         { fis d e cis d4 b8 cis | }
         { fis d e cis d4 fis'8 g | }
       }
-      \break
 
       \repeat volta 2 {
-        a g fis a g fis e g |
+        a \mark \default g fis a g fis e g |
         fis e d fis e d cis e |
         d cis d fis e d e g |
         fis e d fis e4 fis8 g |

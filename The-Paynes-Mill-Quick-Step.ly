@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Paynes Mill Quick Step"
 
@@ -9,6 +10,7 @@
       \key e \minor
 
       \repeat volta 2 {
+        \mark \default
         e8 b e g4 e8 |
         e8 b e g4 e8 |
         fis4 g8 a4 ais8 |
@@ -19,8 +21,9 @@
         fis4 g8 a4 b8 |
         a8 g fis e4. |
       }
-      \break
+
       \repeat volta 2 {
+        \mark \default
         b'8 e, b' c4 b8 |
         b8 e, b' c4 b8 |
         a4 g8 fis4 g8 |

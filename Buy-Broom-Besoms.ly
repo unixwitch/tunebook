@@ -9,12 +9,14 @@
       \time 3/4
       \key d \major
 
+      \mark \default
       d8 fis a b g e |
       d fis a b g4 |
       d8 fis a b g e |
       fis d d b g'4 |
       \bar "||"
 
+      \mark \default
       e4 e8 d cis a |
       d d d fis g4 |
       e8 e e d cis a |

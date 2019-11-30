@@ -1,14 +1,16 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Brenda Stubbert's Reel"
 
 \score {
   <<
     \relative b' {
-      \time 4/4
+      \time 2/2
       \key a \dorian
 
       \repeat volta 2 {
+        \mark \default
         a4 b8 a g a a b |
         a4 b8 a e' d d e |
         g,4 b8 a b g g b |
@@ -19,8 +21,8 @@
         g e d b g a b d |
         e4 d8 b e a, a b |
       }
-      \break
 
+      \mark \default
       a4 a' a, g' |
       a,8 a' g e a g e g |
       g,4 b8 a b g g b |
@@ -30,7 +32,6 @@
       a,8 a' g e a g e a |
       g e d b g a b d |
       e4 d8 b e a, a b |
-      \break
 
       a4 a' a, g' |
       a,8 a' g e a g e g |
@@ -45,7 +46,7 @@
     }
 
     \chords {
-      \time 4/4
+      \time 2/2
 
       \repeat volta 2 {
         a1:m | a2:m g2 | g1 | c1 |

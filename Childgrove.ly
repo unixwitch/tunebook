@@ -10,6 +10,7 @@
       \key d \minor
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 a4 |
         a d d e |
         f2 e4 d |
@@ -21,9 +22,9 @@
         g f e8 f e d |
         d2.
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         f8 g |
         a4 f f a |
         g e e g |

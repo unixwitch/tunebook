@@ -6,11 +6,12 @@
 \score {
   <<
     \relative d' {
-      \time 4/4
+      \time 2/2
       \key g \minor
 
       % A
       \repeat volta 2 {
+        \mark \default
         d8 g g f d g g f |
         d8 f g a bes g a f |
         d8 g g f d g g f |
@@ -26,15 +27,14 @@
         { d8 g g f g a bes c }
       }
 
-      \break
-
       % B
       \repeat volta 2 {
+        \mark \default
         d8 g, g c g g bes g |
         g8 a g g g a bes c |
         d8 f, f c' f, f bes f |
         f8 a f f g a bes c |
-        \break
+
         d8 ees, ees c' ees, ees bes' ees, |
         ees8 a ees ees g a bes c |
         d c bes c bes a g f |
@@ -48,7 +48,7 @@
 
     \new ChordNames {
       \chordmode {
-        \time 4/4
+        \time 2/2
         \set chordChanges = ##t
 
         \repeat volta 2 {

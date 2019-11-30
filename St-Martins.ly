@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "St. Martin's"
 
@@ -10,6 +11,7 @@
 
       \partial 4 e4
       \repeat volta 2 {
+        \mark \default
         a8 b c4 b8 c d4 |
         c2 c4 d |
         e8 fis g4 fis4. e8 |
@@ -22,6 +24,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         b4 e b c |
         b4. a8 g fis e4 |
         c'8 d e fis d4. e8 |

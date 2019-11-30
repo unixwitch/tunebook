@@ -10,6 +10,7 @@
       \key e \minor
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 g8 a \bar "|"
         b c a b g a fis g |
         e8 fis g a b4 e8 fis |
@@ -21,9 +22,8 @@
         e4 e, e
       }
 
-      \break
-
       \repeat volta 2 {
+        \mark \default
         g'8 a \bar "|"
         b a b g e fis g a |
         b a b g e g fis e |
@@ -36,8 +36,7 @@
       }
     }
 
-    \new ChordNames {
-      \chordmode {
+    \chords {
         \time 4/4
         \set chordChanges = ##t
 
@@ -64,7 +63,6 @@
           e2:m b:7 |
           e2:m e4:m
         }
-      }
     }
   >>
 

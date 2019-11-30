@@ -10,6 +10,7 @@
       \key g \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 g8 e |
         d4 b'8 b a g |
         b d b a4 b8 |
@@ -23,6 +24,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         b8 d |
         e4 e8 e d b |
         e g e e d b |
@@ -35,6 +37,17 @@
         b g e g
       }
     }
+
+    \chords {
+      \time 6/8
+
+      \partial 4 s4 |
+      g2. | g4. d4. | g2. | g4. d4. |
+      g2. | g4. d4. | g2. | g2. |
+
+      e2.:m | e2.:m | d2. | d2. |
+      g2. | c2. | a4.:m g4. | g4.
+    }
   >>
 
   \header{
@@ -42,7 +55,7 @@
     opus="Irish jig, trad.; G major."
   }
   \layout{indent=0}
-  \midi{\tempo 4=180}
+  \midi{\tempo 4.=116}
 }
 
 \markuplist{

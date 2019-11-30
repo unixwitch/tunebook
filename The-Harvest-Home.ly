@@ -9,6 +9,7 @@
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 a8 fis |
         d8 a' fis a d, a' fis a |
         d8 e fis e d cis b a |
@@ -21,9 +22,8 @@
         d4 fis d
       }
 
-      \break
-
       \repeat volta 2 {
+        \mark \default
         cis8 d |
         e8 a, a a fis' a, a a |
         g'8 a, fis' a, e' a, a a |
@@ -60,4 +60,5 @@
     title = "The Harvest Home"
     opus = "Irish hornpipe, trad.; D major."
   }
+  \layout{indent=0}
 }

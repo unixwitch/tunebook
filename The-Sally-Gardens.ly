@@ -1,33 +1,33 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Sally Gardens"
 
 \score {
   <<
     \relative g' {
-      \time 4/4
+      \time 2/2
       \key g \major
 
       \repeat volta 2 {
+        \mark \default
         g4 g8 a b a g b |
         d b e b d b a b |
         d4 b8 d e fis g e |
         d b a b g e d e |
-        \break
 
         g fis g a b a g b |
         d4 e8 b d b a b |
         d4 b8 d e fis g e |
         d b a b g2 |
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         d'8 g g fis g4 d8 e |
         g4 b8 g a g e g |
         e a a g a4 e8 g
         a4 b8 g a g e g |
-        \break
 
         d g g fis g4 d8 e |
         g4 b8 g a g e g |
@@ -37,7 +37,7 @@
     }
 
     \chords {
-      \time 4/4
+      \time 2/2
       \set chordChanges=##t
 
       g1 | g1 | g2 c2 | d2 e2:m |

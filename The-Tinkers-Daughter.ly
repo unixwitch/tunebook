@@ -6,11 +6,12 @@
 \score {
   <<
     \relative a' {
-      \time 4/4
+      \time 2/2
       \key d \major
 
       % A
       \repeat volta 2 {
+        \mark \default
         a4 fis8 a d, a' fis a |
         d e fis d e fis d b |
         a4 fis8 a d, a' fis a |
@@ -26,6 +27,7 @@
 
       % B
       \repeat volta 2 {
+        \mark \default
         fis a a fis b fis a fis |
         d e fis d \tuplet 3/2 { e fis e } d e |
         fis4 d8 fis e fis d e |
@@ -43,7 +45,7 @@
 
     \new ChordNames {
       \chordmode {
-        \time 4/4
+        \time 2/2
 
         \repeat volta 2 {
           a1 | d1 | a1 | g1 |

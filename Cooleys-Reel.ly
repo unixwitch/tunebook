@@ -6,10 +6,11 @@
 \score {
   <<
       \relative d' {
-        \time 4/4
+        \time 2/2
         \key e \dorian
 
         \repeat volta 2 {
+          \mark \default
           \partial 4 d4 |
           e8 b' b a b4 e,8 b' |
           b4 a8 b d b a g |
@@ -22,9 +23,8 @@
           d8 e fis d e4
         }
 
-        \break
-
         \repeat volta 2 {
+          \mark \default
           g'8 fis |
           e8 b b4 e8 fis g e |
           e8 b b4 g'8 e d b |
@@ -40,7 +40,7 @@
 
       \new ChordNames {
         \chordmode {
-          \time 4/4
+          \time 2/2
 
           \repeat volta 2 {
             \partial 4 s4 |

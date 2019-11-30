@@ -9,9 +9,8 @@
       \time 6/8
       \key d \major
 
-      \mark "Free time"
-
       \repeat volta 2 {
+        \mark \default
         \partial 8 d16 b |
         a8. b16 d8 d8. e16 d8 |
         e8 fis a b4 d8 |
@@ -25,19 +24,17 @@
       }
 
       \tuplet 3/2 { a'16 b cis } |
-      \break
 
+      \mark \default
       d8. fis16 d8 e cis a |
       b16 a b cis d8 b16 a g fis e d |
       e8. d16 e8 fis8. e16 d8 |
       fis8 d b b4 \tuplet 3/2 { a'16 b cis } |
-      \break
 
       d8. fis16 d8 e cis a |
       b16 a b cis d8 b16 a g fis e d |
       e8. d16 e8 fis8 d b |
       a16 d8. d8 d4 \tuplet 3/2 { a'16 b cis } |
-      \break
 
       d8. fis16 d8 e cis a |
       b16 a b cis d8 b16 a g fis e d |

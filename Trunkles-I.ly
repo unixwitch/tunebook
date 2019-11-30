@@ -10,20 +10,24 @@
       \key g \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 r4 |
         d4 d8. b16 c4 e |
         d8. c16 b8. a16 b4 g |
         d'4 d8. b16 c4 e |
         d8. c16 b8. a16 g4
       }
+
       \repeat volta 2 {
+        \mark \default
         a4 |
         b8. a16 b8. c16 d4 d |
         e8. fis16 \tuplet 3/2 { g8 fis e } d4 g4 |
         fis4 e8. d16 cis4 a |
         d2 d4
       }
-      \break
+
+      \mark \default
       c8. d16 |
       e4 c c8. d16 e8. c16 |
       d4 b b8. c16 d8. b16 |

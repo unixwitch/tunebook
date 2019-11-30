@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Calliope House (D)"
 
@@ -9,6 +10,7 @@
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         d8 a a fis' a, a |
         e' a, a fis' a, a |
         b e e e4 d8 |
@@ -21,9 +23,9 @@
         { fis4 fis8 fis e d | e4. e4 a,8 | }
         { fis'4 fis8 e d cis | d4. e8 fis g | }
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         a4 a8 fis a a |
         e a a fis a a |
         g4 g8 fis g fis |

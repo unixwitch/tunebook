@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Spanish Lady"
 
@@ -9,12 +10,14 @@
       \key a \mixolydian
 
       \repeat volta 2 {
+        \mark \default
         fis4 a a b8 cis |
         d4 d d8 e fis4 |
         g e fis d |
         b a a2 |
       }
 
+      \mark \default
       fis'4 a a fis |
       e d d e |
       fis a a fis |

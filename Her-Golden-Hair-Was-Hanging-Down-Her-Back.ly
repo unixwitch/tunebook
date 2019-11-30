@@ -10,6 +10,7 @@
       \key a \dorian
 
       \repeat volta 2 {
+        \mark \default
         e8 d c e d4 c8 a |
         g8 e d4\prall g c8 d |
         e8 d c e d4 c8 d |
@@ -22,6 +23,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         e8 g g fis g e d e |
         c8 a a b c4. d8 |
         e8 a a g a4 g8 f |

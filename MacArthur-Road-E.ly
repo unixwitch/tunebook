@@ -1,14 +1,16 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "MacArthur Road (E)"
 
 \score {
   <<
     \relative b' {
-      \time 4/4
+      \time 2/2
       \key e \major
 
       \repeat volta 2 {
+        \mark \default
         b8 gis \tuplet 3/2 { gis gis gis } b cis e fis |
         gis fis e gis fis e cis e |
         fis4 fis8 gis8 fis e cis e |
@@ -22,25 +24,22 @@
         { cis8 e fis gis e4 e4 | }
         { cis8 e fis gis e fis gis a | }
       }
-      \break
 
+      \mark \default
       b8 e, \tuplet 3/2 { e e e } b' e, cis' e, |
       b' e, gis e fis e cis e |
       fis4 fis8 gis8 fis e cis e |
       a e gis e fis e cis e |
-      \break
 
       b'8 e, \tuplet 3/2 { e e e } b' e, cis' e, |
       b' e, gis e fis e cis e |
       fis4 fis8 gis8 fis e cis b |
       cis e fis gis e fis gis a |
-      \break
 
       b8 e, \tuplet 3/2 { e e e } b' e, cis' e, |
       b' e, gis e fis e cis e |
       fis4 fis8 gis8 fis e cis e |
       a e gis e fis e cis e |
-      \break
 
       b8 gis \tuplet 3/2 { gis gis gis } b cis e fis |
       gis fis e gis fis e cis e |

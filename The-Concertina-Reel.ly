@@ -1,14 +1,16 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Concertina Reel"
 
 \score {
   <<
     \relative a' {
-      \time 4/4
+      \time 2/2
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         a4 fis8 a b a fis a |
         a4 fis8 a b a fis a |
         b4 b8 a b4 b8 a |
@@ -21,6 +23,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         a'8 d d d a d d d |
         a d d a b a fis a |
         b4 b8 a b4 b8 a |
@@ -34,7 +37,7 @@
     }
 
     \chords {
-      \time 4/4
+      \time 2/2
 
       \repeat volta 2 {
         d1 | d | e:m | a:7 |

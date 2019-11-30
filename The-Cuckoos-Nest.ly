@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Cuckoo's Nest"
 
@@ -10,6 +11,7 @@
 
       \partial 8 e8 |
       \repeat volta 2 {
+        \mark \default
         f16 e f e d8 d' |
         a a a g |
         f16 e f e d8 a'16 b |
@@ -22,6 +24,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         d'16 e f e d8 d |
         c16 b a g a4 |
         d16 e f g a8 a |

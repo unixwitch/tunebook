@@ -6,10 +6,11 @@
 \score {
   <<
     \relative g' {
-      \time 4/4
-      \key d \dorian
+      \time 2/2
+      \key d \mixolydian
 
       \repeat volta 2 {
+        \mark \default
         g4 g8 d e d e g |
         a8 g a b d4 b8 d |
         e8 g e d b a g a |
@@ -20,9 +21,9 @@
         e8 g e d b a g a |
         b8 a g e e d d4 |
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         e'8 a a4 e8 fis g fis |
         e8 b b a b4 b8 d |
         e8 b b4 e8 fis g fis |
@@ -36,7 +37,7 @@
     }
 
     \chords {
-      \time 4/4
+      \time 2/2
       \set chordChanges = ##t
       \transpose c' c {
         \repeat volta 2 {
@@ -53,7 +54,7 @@
 
   \header {
     title = "The Banshee"
-    opus = "Irish reel, c. James McMahon; D dorian."
+    opus = "Irish reel, c. James McMahon; D mixolydian."
   }
 
   \layout{ indent = 0 }

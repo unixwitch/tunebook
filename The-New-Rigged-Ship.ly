@@ -10,6 +10,7 @@
 
       \key a \mixolydian
       \repeat volta 2 {
+        \mark \default
         \partial 4 e8 g |
         a4 a8 b a g e g |
         a4 a8 b a g e fis |
@@ -19,6 +20,7 @@
 
       \key a \major
       \repeat volta 2 {
+        \mark \default
         e8 d |
         cis8 a cis a b4 e8 d |
         cis8 a cis a e4 e'8 d |
@@ -28,6 +30,7 @@
 
       \key a \minor
       \repeat volta 2 {
+        \mark \default
         a8 b |
         c8 d e c b c d b |
         a b a f g f e4 |

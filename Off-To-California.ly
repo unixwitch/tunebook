@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Off To California"
 
@@ -9,6 +10,7 @@
       \key g \major
 
       \repeat volta 2 {
+        \mark \default
         g8 fis g b a g e d |
         g b d g e4 d8 fis |
         g fis g d e d b g |
@@ -21,6 +23,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         g'8 fis e g fis e d fis |
         e d e fis e d b d |
         g fis g d e d b g |

@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Maid Behind the Bar"
 
@@ -9,6 +10,7 @@
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 d8 e
         fis8 a a b a fis e d |
         fis8 a a b a b d e |
@@ -20,9 +22,9 @@
         fis8 b, b a b cis d b |
         a8 fis e fis d4
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         d'8 e
         fis8 a a g fis d d e |
         fis8 d a' d, fis d d4 |
@@ -38,7 +40,7 @@
 
     \new ChordNames {
       \chordmode {
-        \time 4/4
+        \time 2/2
 
         \repeat volta 2 {
           \partial 4 s4

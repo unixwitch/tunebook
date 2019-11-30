@@ -13,6 +13,7 @@
       \key e \minor
 
       \repeat volta 2 {
+        \mark \default
         e8 fis g a b c |
         b2 b4 |
         c8 b a b c e |
@@ -26,9 +27,8 @@
         { fis4 g fis | e2 g8 a }
       }
 
-      \time 6/8
-      \set beatStructure = #'(3 3)
       \repeat volta 2 {
+        \mark \default
         b8 g e b' g e |
         b'8 g e b' g e |
         c'8 g e c' g e |

@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Floating From Skerry"
 
@@ -9,6 +10,7 @@
       \key e \minor
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 b4 |
         e4. fis8 g a |
         b4. a8 g4 |
@@ -32,6 +34,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         e'4. fis8 g e |
         a4. g8 fis d |
         e4. fis8 g e |

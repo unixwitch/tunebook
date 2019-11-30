@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Shove the Pig's Foot a Little Further Into the Fire"
 
@@ -9,6 +10,7 @@
       \key g \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 b4 |
         b8 c b a g4 e8 fis |
         g a g e d4. d8 |
@@ -22,6 +24,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         g8 a |
         b8 d4 e8 d4. d8 |
         e d b c d4 b8 a |

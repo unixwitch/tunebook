@@ -1,14 +1,16 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Star of Munster"
 
 \score {
   <<
     \relative e'' {
-      \time 4/4
+      \time 2/2
       \key a \dorian
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 e8 d |
         c4 a8 c b4 g8 b |
         a g e fis g e d g |
@@ -20,9 +22,9 @@
         e a a b c d e d |
         c a b g a4
       }
-      \break
-      
+
       \repeat volta 2 {
+        \mark \default
         d8 e |
         e a a b a g e g |
         a g b g a g e fis |
@@ -37,8 +39,7 @@
     }
 
     \chords {
-      \time 4/4
-      \set chordChanges=##t
+      \time 2/2
 
       \partial 4 s4
       a2:m g2 | a2:m g2 | a1:m | a2:m g2 |

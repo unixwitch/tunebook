@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Connaughtman's Rambles"
 
@@ -9,6 +10,7 @@
       \key b \minor
 
       \repeat volta 2 {
+        \mark \default
         fis8 a a d a a |
         b a a d a g |
         fis a a d fis e |
@@ -24,6 +26,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         fis'8 b b fis a fis |
         fis e d e d e |
         fis b b fis a fis |

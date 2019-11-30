@@ -1,28 +1,29 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Shaskeen"
 
 \score {
   <<
     \relative e' {
-      \time 4/4
+      \time 2/2
       \key g \major
 
       \repeat volta 2 {
+        \mark \default
         \partial 8 e8 |
         d g g4\prall a8 g a b |
         c d e d c a a c |
         b a a4\prall a8 fis fis4\prall |
         g8 b a g fis d d4\prall |
-        \break
 
         d8 g g4\prall a8 g a b |
         c d e d c a a g' |
         fis4 fis8 e fis d c a |
         b g a fis g g4\prall
-        \break
       }
 
+      \mark \default
       b8 |
       d g g fis g4 fis8 g |
       a b a g fis d d c |
@@ -33,7 +34,6 @@
       a b a g fis d d c |
       b g g4\prall a8 fis fis4\prall |
       g8 b a fis g g4\prall a8 | \bar "||"
-      \break
 
       d g g fis g4 fis8 g |
       a b a g fis d d c |

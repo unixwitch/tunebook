@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The First of May"
 
@@ -9,6 +10,7 @@
       \key a \dorian
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 a8 g |
         e a a b c4 b8 a |
         d4 e8 fis g4 fis8 g |
@@ -22,6 +24,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         \tuplet 3/2 { e'8 fis g }
         a4 a8 fis g4 g8 e |
         cis8 d e fis g4 fis8 g |

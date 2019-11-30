@@ -10,6 +10,7 @@
       \key e \minor
 
       \repeat volta 2 {
+        \mark \default
         b4 e, e2 |
         b'4 e, e4. fis8 |
         g4 g fis g |
@@ -22,6 +23,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         e4 g e g |
         fis4 d d2 |
         e4 g e g |

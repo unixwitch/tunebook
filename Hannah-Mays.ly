@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Hannah May's"
 
@@ -10,6 +11,7 @@
       \key d \minor
 
       \repeat volta 2 {
+        \mark \default
         d8 e f g a4 d,8 e |
         f8 g a4 d, f |
         e4 c8 e g4 e |
@@ -23,6 +25,7 @@
 
       \key d \mixolydian
       \repeat volta 2 {
+        \mark \default
         fis4. e8 d4 d' |
         cis4 d a b8 c |
         b4 g c g |

@@ -1,14 +1,16 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Tam Lin (The Glasgow Reel)"
 
 \score {
   <<
     \relative b {
-      \time 4/4
+      \time 2/2
       \key d \minor
 
       \repeat volta 2 {
+        \mark \default
         a4 d8 a f' a, d a |
         bes4 d8 bes f' bes, d bes |
         c4 e8 c g' c, e c |
@@ -19,9 +21,9 @@
         c4 e8 c g' c, e c |
         f8 e d c a d d4 |
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         d'8 a a4\prall f8 a d, a' |
         d8 a a4\prall f8 a d, a' |
         c8 g g4\prall f8 g g4\prall |
@@ -52,5 +54,6 @@
     title = "Tam Lin (The Glasgow Reel)"
     opus = "Irish reel, c. Davey Arthur; D minor."
   }
+  \layout{indent=0}
 }
 

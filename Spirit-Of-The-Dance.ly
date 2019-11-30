@@ -10,6 +10,7 @@
       \key g \major
 
       \repeat volta 2 {
+        \mark \default
         g4 d8 e4 d8 |
         g4 d8 e4 d8 |
         g8 a b c4 b8 |
@@ -20,9 +21,9 @@
         g8 a b c d e |
         c8 a fis g4. |
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         g8 a b c4. |
         b4. a4. |
         a8 b c d4. |

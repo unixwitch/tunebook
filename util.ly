@@ -10,3 +10,9 @@
   #:properties ((lyric-indent 4))
   (interpret-markup-list layout props
    #{\markuplist { \line { \hspace #lyric-indent \italic { \abs-fontsize #12 { #args } } } } #}))
+
+%\layout {
+%  indent = 0.0\cm
+%  \set Score.markFormatter = #format-mark-box-alphabet
+%  \set chordChanges = ##t
+%}

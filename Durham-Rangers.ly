@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Durham Rangers"
 
@@ -9,6 +10,7 @@
       \key d \major
 
        \repeat volta 2 {
+         \mark \default
          \partial 4 fis8 g |
          a8 b a fis a4 d8 e |
          fis8 g fis e d4. a8 |
@@ -21,9 +23,8 @@
          fis4 d d
        }
 
-       \break
-
        \repeat volta 2 {
+         \mark \default
          a''8 g |
          fis8 e fis g a fis d g |
          fis8 e fis g a4 g8 fis |

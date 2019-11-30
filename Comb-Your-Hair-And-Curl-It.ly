@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Comb Your Hair and Curl It"
 
@@ -9,6 +10,7 @@
       \key e \dorian
 
       \repeat volta 2 {
+        \mark \default
         b4 e,8 e4 fis8 g4 a8 |
         b8 cis d e4 cis8 d4. |
         b4 e,8 e4 fis8 g4 a8 |
@@ -16,6 +18,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         g'4 e8 e4 d8 e fis g |
         fis4 d8 d4 cis8 d e fis |
         g4 e8 e4 d8 e4 cis8 |

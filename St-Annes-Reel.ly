@@ -6,10 +6,11 @@
 \score {
   <<
     \relative fis'' {
-      \time 4/4
+      \time 2/2
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         fis8 e d fis e d cis b |
         a4 fis8 a d, a' fis a |
         b4 g8 b e, b' g b |
@@ -22,6 +23,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         fis4 fis8 g fis e d cis |
         b8 g' g fis g4 g8 fis |
         e8 d cis b a b cis e |
@@ -35,7 +37,7 @@
     }
 
     \chords {
-      \time 4/4
+      \time 2/2
       \set chordChanges = ##t
 
       \repeat volta 2 {

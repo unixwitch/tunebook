@@ -11,6 +11,7 @@
       \key a \minor
 
       \repeat volta 2 {
+        \mark \default
         \partial 4 a8 b |
         c4 b8. a16 a4 g8 a |
         c4 b8. a16 g4 c8 d |
@@ -24,6 +25,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         e'8 f |
         g8 e d e g4. a8 |
         g8 e d e g4. e8 |

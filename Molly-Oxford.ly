@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Molly Oxford"
 
@@ -9,6 +10,7 @@
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         d4 cis8 d e4 fis |
         e d8 cis b cis d4 |
         cis a b g |
@@ -21,6 +23,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         a'8 g fis e d4 e8 fis |
         g4 a b cis |
         d8 cis b a g4 a4 |
@@ -32,10 +35,23 @@
         g2~g |
       }
     }
+
+    \chords {
+      \time 4/4
+
+      d2 a2 | a2 g2 | a2 g2 | d1 |
+      g2 d2 | d1 | d2 a2 | d1 |
+
+      d1 | g2 a2 | d2 g2 | g2 a2 |
+      g2 a2 | g1 | d1 | g1 |
+    }
   >>
 
   \header{
     title="Molly Oxford"
     opus="English Morris dance, trad.; D major."
   }
+
+  \layout{indent=0}
+  \midi{\tempo 4=140}
 }

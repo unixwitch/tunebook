@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Night Before Larry Was Stretched"
 
@@ -9,6 +10,7 @@
       \key e \minor
 
       \repeat volta 2 {
+        \mark \default
         g8 fis e e b e e4 g8 |
         fis8 e d d a d fis g a |
         g8 fis e e b e e4 g8 |
@@ -16,6 +18,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         g8 a b b c a b4. |
         g8 a b b c d e c a |
         g8 a b b c a b c d |

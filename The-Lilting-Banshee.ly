@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "The Lilting Banshee"
 
@@ -9,6 +10,7 @@
       \key a \dorian
 
       \repeat volta 2 {
+        \mark \default
         e8 a a e a a |
         b a b g4 a8 |
         b e e e d b |
@@ -21,6 +23,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         e'8 a a a g e |
         d b a g4 a8 |
         b e e e d b |

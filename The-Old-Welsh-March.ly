@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "Ymdaith Yr Hen Gymry (The Old Welsh March)"
 
@@ -10,6 +11,7 @@
 
       \partial 8 e8
       \repeat volta 2 {
+        \mark \default
         a8. a16 a8 a |
         e8. fis16 gis8 e |
         a a gis16 a b c |
@@ -25,6 +27,7 @@
       }
 
       \repeat volta 2 {
+        \mark \default
         e8 e e c16 d |
         e8 e e b16 c |
         d8 d d b16 c |

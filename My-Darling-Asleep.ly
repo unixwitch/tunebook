@@ -1,4 +1,5 @@
 \version "2.18.2"
+\include "util.ly"
 
 \tocItem \markup "My Darling Asleep"
 
@@ -9,6 +10,7 @@
       \key d \major
 
       \repeat volta 2 {
+        \mark \default
         fis8 d d cis a a |
         b g g a4 g8 |
         fis a a d e fis |
@@ -19,9 +21,9 @@
         fis a a d e fis |
         g e cis d4. |
       }
-      \break
 
       \repeat volta 2 {
+        \mark \default
         fis,8 a a a d d |
         fis, a a b g g |
         fis a a d e fis |
